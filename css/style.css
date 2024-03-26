@@ -91,7 +91,8 @@ a:hover {
   position: fixed;
   top: 0px;
   padding: 0 30px;
-  transition: 0.5s;
+  transition: 0.2s;
+  max-width: 100%;
 }
 
 .navbar.top {
@@ -2042,6 +2043,7 @@ h2.typoh2 {
     flex-direction: column;
     height: 120px;
     padding: 10px;
+    max-width: 100%;
   }
   .navbar-brand {
     color: #e2e8e9;
@@ -2189,6 +2191,7 @@ h2.typoh2 {
     flex-direction: column;
     height: 120px;
     padding: 10px;
+    max-width: 100%;
   }
   .navbar-brand {
     color: #e2e8e9;
