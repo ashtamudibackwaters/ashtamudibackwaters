@@ -1237,35 +1237,6 @@ figure.effect-zoe:hover ul.social-icons a:first-child {
 }
 
 
-
-.team ul.social-icons li a.facebook:hover {
-  background-position: 0px -33px;
-}
-
-.team ul.social-icons li a.twitter {
-  background-position: -35px 0px;
-}
-
-.team ul.social-icons li a.twitter:hover {
-  background-position: -35px -33px;
-}
-
-.team ul.social-icons li a.googleplus {
-  background-position: -69px 0px;
-}
-
-.team ul.social-icons li a.googleplus:hover {
-  background-position: -69px -33px;
-}
-
-.team ul.social-icons li a.instagram {
-  background-position: -102px 0px;
-}
-
-.team ul.social-icons li a.instagram:hover {
-  background-position: -102px -33px;
-}
-
 /*-- //Team --*/
 
 /*-- //About-Page-Styling --*/
@@ -4198,35 +4169,6 @@ textarea {
     display: inline-block;
     width: 30px;
     height: 30px;
-  }
-  ul.social-icons li a.facebook:hover {
-    background-position: 0px -33px;
-  }
-  ul.social-icons li a.twitter {
-    background-position: -35px 0px;
-  }
-  ul.social-icons li a.twitter:hover {
-    background-position: -35px -33px;
-  }
-  ul.social-icons li a.googleplus {
-    background-position: -69px 0px;
-  }
-  ul.social-icons li a.googleplus:hover {
-    background-position: -69px -33px;
-  }
-  ul.social-icons li a.instagram {
-    
-    
-    background-position: -102px 0px;
-  }
-  ul.social-icons li a.instagram:hover {
-    background-position: -102px -33px;
-  }
-  ul.social-icons li a.youtube {
-    background-position: -135px 0px;
-  }
-  ul.social-icons li a.youtube:hover {
-    background-position: -135px -33px;
   }
 }
 
