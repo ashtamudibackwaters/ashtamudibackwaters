@@ -1234,8 +1234,6 @@ figure.effect-zoe:hover ul.social-icons a:first-child {
   display: inline-block;
   width: 30px;
   height: 30px;
-  background: url("../images/img-sprite.png") no-repeat 0px 0px;
-  background-size: 200px;
 }
 
 
@@ -4200,8 +4198,6 @@ textarea {
     display: inline-block;
     width: 30px;
     height: 30px;
-    background: url("../images/img-sprite.png") no-repeat 0px 0px;
-    background-size: 200px;
   }
   ul.social-icons li a.facebook:hover {
     background-position: 0px -33px;
