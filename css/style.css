@@ -639,6 +639,7 @@ ul.callbacks_tabs li {
 /*-- //Principles --*/
 
 /*-- Footer --*/
+
 .footer {
   padding: 100px 0 50px;
   background-color: #333;
@@ -681,6 +682,8 @@ ul.callbacks_tabs li {
 .newsletter input[type="text"] {
   width: 74%;
   padding: 15px;
+  /*--w3layouts--*/
+  /*--agileits--*/
   background-color: #333;
   border: none;
   outline: none;
@@ -718,31 +721,47 @@ ul.social-icons li a {
   display: inline-block;
   width: 50px;
   height: 50px;
-  text-align: center;
-  line-height: 50px;
-  color: #fff;
-  font-size: 60px; /* Adjust icon size as needed */
+  background: url("../images/img-sprite.png") no-repeat 0px 0px;
 }
 
-ul.social-icons li a:hover {
-  color: #1dc8d9;
+ul.social-icons li a.facebook {
+  background-position: 0px 0px;
 }
 
-/* Adjust individual icons as needed */
-ul.social-icons li a.facebook:before {
-  content: "\f09a"; /* Facebook icon */
+ul.social-icons li a.facebook:hover {
+  background-position: 0px -50px;
 }
 
-ul.social-icons li a.instagram:before {
-  content: "\f16d"; /* Instagram icon */
+ul.social-icons li a.twitter {
+  background-position: -50px 0px;
 }
 
-ul.social-icons li a.youtube:before {
-  content: "\f167"; /* YouTube icon */
+ul.social-icons li a.twitter:hover {
+  background-position: -50px -50px;
 }
 
-ul.social-icons li a.whatsapp:before {
-  content: "\f232"; /* WhatsApp icon */
+ul.social-icons li a.googleplus {
+  background-position: -100px 0px;
+}
+
+ul.social-icons li a.googleplus:hover {
+  background-position: -100px -50px;
+}
+
+ul.social-icons li a.instagram {
+  background-position: -150px 0px;
+}
+
+ul.social-icons li a.instagram:hover {
+  background-position: -150px -50px;
+}
+
+ul.social-icons li a.youtube {
+  background-position: -200px 0px;
+}
+
+ul.social-icons li a.youtube:hover {
+  background-position: -200px -50px;
 }
 
 .copyright {
@@ -757,8 +776,6 @@ ul.social-icons li a.whatsapp:before {
 .copyright a:hover {
   color: #1dc8d9;
 }
-
-
 
 /*-- Footer --*/
 /*-- //Index-Page-Styling --*/
